@@ -1,0 +1,27 @@
+{
+    "name": "hewersonfreitas/module-href-lang",
+    "description": "Magento 2 Identify Store Lang by Id",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.1.0",
+        "magento/product-community-edition": "^2.3"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Hewerson Freitas",
+            "email": "hewerson.freitas@gmail.com",
+            "homepage": "https://github.com/hewersonfreitas",
+            "role": "Leader"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Href\\Lang\\": "src/"
+        }
+    }
+}
