@@ -5,11 +5,11 @@ O objetivo desse modulo para Magento 2, é identificar qual língua atual está 
 
 # Features
 
- - [ ] Adicione um bloco à head;
- - [ ] O bloco deve ser capaz de identificar o id da página CMS e verificar se a página é usada em múltiplos views/stores loja;
- - [ ] Adicionar uma meta tag hreflang ao cabeçalho;
- - [ ] Se a metatag for exibida - ela deve exibir o idioma da loja, como “en-gb”, “en-us”, etc. As metatag devem ter valores específicos para cada país;
- - [ ] Apoie o fato de que cada loja deve ter um par de idiomas diferente.
+ - [x] Adicione um bloco à head;
+ - [x] O bloco deve ser capaz de identificar o id da página CMS e verificar se a página é usada em múltiplos views/stores loja;
+ - [x] Adicionar uma meta tag hreflang ao cabeçalho;
+ - [x] Se a metatag for exibida - ela deve exibir o idioma da loja, como “en-gb”, “en-us”, etc. As metatag devem ter valores específicos para cada país;
+ - [x] Apoie o fato de que cada loja deve ter um par de idiomas diferente.
 
 
 ## Instalação via Composer
