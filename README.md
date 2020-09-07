@@ -71,5 +71,20 @@ Para concluir a instalação execute o comando abaixo que o seu pacote seja inst
 ```bash
 $ composer update
 ```
+## Instalação via .zip
 
+Para instalar via arquivos devemos realizar o download do modulo, baixando diretamente do [repo](https://github.com/hewersonfreitas/module-href-lang). Iremos realizar o wget para fazer o download.
 
+Utilizando o 'wget' como exemplo abaixo:
+```bash
+$ wget https://github.com/hewersonfreitas/module-href-lang/archive/master.zip
+```
+Descompacte os arquivos na **raiz** do seu Magento dentro da pasta **app/code** do seu projeto Magento.
+
+## Habilitando Instalação
+
+Para finalizar a instalação execute os comando abaixo dentro da pasta raiz do seu Magento.
+```bash
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy -f
+```
